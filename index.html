@@ -29,59 +29,72 @@
          </div>
       </div>
    </nav>
+   <!--Header-->
+   <header class="header container">
+      <div class="row-index hero border-bottom">
+         <div class="col-index col-index-1">
+            <h1 class="h1-title">Jesteśmy tu dla ciebie aby było ci lepiej</h1>
+            <input type="text" placeholder="Szukaj..." class="search-bar">
+         </div>
+         <div class="col-index col-index-2">
+            <div>
+               <img src="assets/obrazek.jpg" alt="Zdjęcie" class="hero-img">
+            </div>
+         </div>
+      </div>
+   </header>
    <!-- Page content-->
    <div class="container">
-      <!-- Banner -->
-      <div class="row banner-container">
-         <!-- Banner - col1 -->
-         <div class="col-12 col-md-6 text-center">Tekst</div>
-         <!-- End -->
-         <!-- Banner - col2 -->
-         <table>
-            <thead>
-               <th>Zawartość</th>
-               <th><img src="assets/obrazek.jpg" alt="Zdjęcie"></th>
-            </thead>
-         </table>
-
-         <!-- End -->
-      </div>
-      <!-- Banner - end -->
       <!-- Content -->
       <div class="row text-center mt-5">
          <h1>Centrum wiedzy</h1>
          <div class="col-6 col-md-6 text-right"><button class="btn panel-btn btn-active" id="article"
-               onclick="switchTab(this.id)">Button 1</button></div>
+               onclick="switchTab(this.id)">Artykuły</button></div>
          <div class="col-6 col-md-6 text-left"><button class="btn panel-btn btn-inactive" id="forum"
-               onclick="switchTab(this.id)">Button 2</button></div>
+               onclick="switchTab(this.id)">Forum</button></div>
          <!-- Article -->
-         <div id="panel-article" class="panel">Artykuły</div>
+         <div id="panel-article" class="panel text-left">
+            <h4 class="fw-bold">Przykładowy artykuł 1</h4>
+            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+               dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
+            <button class="btn btn-forum">Czytaj dalej</button>
+         </div>
+         <div id="panel-article" class="panel text-left">
+            <h4 class="fw-bold">Przykładowy artykuł 2</h4>
+            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+               dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
+            <button class="btn btn-forum">Czytaj dalej</button>
+         </div>
          <!-- Article - end -->
          <!-- Forum  -->
-         <div id="panel-forum" class="panel" style="display: none">Forum</div>
+         <div id="panel-forum" class="panel text-left" style="display: none">
+            <h4 class="fw-bold">Przykładowy temat wpisu</h4>
+            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+               dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
+            <button class="btn btn-forum">Czytaj dalej</button>
+         </div>
          <!-- Forum - end -->
       </div>
       <!-- Footer  -->
-      <div class="row text-center mt-5 footer">
+      <div class="row text-center mt-5 footer border-top">
          <div class="col-12 col-md-5">
             <ul>
-               <ol>Menu 1</ol>
-               <ol>Menu 2</ol>
-               <ol>Menu 3</ol>
-               <ol>Menu 4</ol>
+               <ol><a href="">Specjaliści</a></ol>
+               <ol><a href="">Forum</a></ol>
+               <ol><a href="">Artykuły</a></ol>
             </ul>
          </div>
          <div class="col-12 col-md-2">
-            Grafika
+            <img src="assets/logo.png" alt="PsychoGabinet - logo" class="logo-small">
          </div>
          <div class="col-12 col-md-5">
             <ul>
-               <ol>Menu 5</ol>
-               <ol>Menu 6</ol>
-               <ol>Menu 7</ol>
-               <ol>Menu 8</ol>
+               <ol><a href="">Pomoc</a></ol>
+               <ol><a href="">Kontakt</a></ol>
+               <ol><a href="">O nas</a></ol>
             </ul>
          </div>
+
       </div>
       <!-- Footer - end  -->
    </div>

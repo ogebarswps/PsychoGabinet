@@ -23,7 +23,7 @@
                         <h6 class="card-title text-left mb-4 fw-light fs-5 fw-bold">Zarejestruj się</h6>
                         <form>
                             <div class="mb-6">
-                                <input type="radio" name="user-type" id="pacjent" value="pacjent">
+                                <input type="radio" name="user-type" id="pacjent" value="pacjent" required>
                                 <label for="pacjent">Pacjent</label>
                                 <input type="radio" name="user-type" id="specjalista" value="specjalista">
                                 <label for="specjalista">Specjalista</label>
@@ -33,7 +33,7 @@
 
 
                             <div class="form-floating mb-6">
-                                <input type="text" class="form-control" id="floatingName" placeholder="Imię">
+                                <input type="text" class="form-control" id="floatingName" placeholder="Imię" required>
                                 <label for="floatingName">Imię</label>
                             </div>
                             <div class="form-floating mb-6">
@@ -42,7 +42,7 @@
                             </div>
                             <div class="form-floating mb-6">
                                 <input type="email" class="form-control" id="floatingInput"
-                                    placeholder="name@example.com">
+                                    placeholder="name@example.com" required>
                                 <label for="floatingInput">Email</label>
                             </div>
                             <div class="form-floating mb-6">
@@ -62,14 +62,14 @@
                                 <label for="floatingCity">Miasto</label>
                             </div>
                             <div class="form-floating mb-6">
-                                <input type="password" class="form-control" id="floatingPassword"
-                                    placeholder="Password">
+                                <input type="password" class="form-control" id="floatingPassword" placeholder="Password"
+                                    required>
                                 <label for="floatingPassword">Hasło</label>
                             </div>
 
                             <div class="form-floating mb-6">
                                 <input type="password" class="form-control" id="floatingPasswordConf"
-                                    placeholder="Potwierdź hasło">
+                                    placeholder="Potwierdź hasło" required>
                                 <label for="floatingPasswordConf">Potwierdź hasło</label>
                             </div>
 
