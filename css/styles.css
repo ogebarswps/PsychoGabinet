@@ -12311,9 +12311,7 @@ fieldset:disabled .btn {
 .footer {
   padding-top: 10px;
   position: absolute;
-  bottom: 0px;
   width: 100%;
-  height: 1rem;
 }
 
 .footer ul {
@@ -12348,7 +12346,7 @@ fieldset:disabled .btn {
 
 .h1-title {
   font-family: 'work_sanssemibold';
-  font-size: 45px;
+  font-size: 4vw;
   color: var(--bs-color-main-dark);
   font-weight: bold;
 }
@@ -12376,7 +12374,7 @@ fieldset:disabled .btn {
 .header .col-index-1 {
   width: 100%;
   flex-direction: column;
-  margin-right: 150px;
+  margin-right: 15vw;
 }
 
 .header .col-index-2 {
@@ -12388,7 +12386,7 @@ fieldset:disabled .btn {
 }
 
 .header .h1-title {
-  margin-bottom: 50px;
+  margin-bottom: 4vw;
 }
 
 input[type="radio"]#pacjent {
@@ -12437,16 +12435,23 @@ input[type='radio']:checked:after {
 
 .search-bar {
   font-weight: bold;
+  font-size: 1.3vw;
   color: #5FA8D3;
   background-color: #fff;
   border: 2px solid #5FA8D3;
   padding: 0.3rem 1rem;
   border-radius: 30px;
   margin-right: 15%;
+  width: 30vw;
+  height: 3vw;
 }
 
 .search-bar:hover {
   border: 2px solid #01295F;
+}
+
+.logo {
+  width: 11vw;
 }
 
 .logo-small {
@@ -12457,17 +12462,9 @@ input[type='radio']:checked:after {
 .hero-img {
   border-top-left-radius: 7.5px;
   border-top-right-radius: 7.5px;
+  min-width: 156px;
 }
 
 .panel-marg {
   margin-top: 3rem;
-}
-
-.container-2 {
-  position: relative;
-  min-height: 100vh;
-}
-
-.content-wrap {
-  padding-bottom: 1rem;
 }
