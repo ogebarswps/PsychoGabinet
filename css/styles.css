@@ -350,14 +350,6 @@ figure {
   margin: 0 0 1rem;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 3rem;
-  width: 170px;
-}
-
 img,
 svg {
   vertical-align: middle;
@@ -1264,7 +1256,7 @@ progress {
 
   .col-md-2 {
     flex: 0 0 auto;
-    width: 16.66666667%;
+    width: 18%;
   }
 
   .col-md-3 {
@@ -1304,7 +1296,7 @@ progress {
 
   .col-md-10 {
     flex: 0 0 auto;
-    width: 83.33333333%;
+    width: 82%;
   }
 
   .col-md-11 {
@@ -8354,10 +8346,6 @@ fieldset:disabled .btn {
   margin-bottom: 3rem !important;
 }
 
-.mb-6 {
-  margin-bottom: 7px !important;
-}
-
 .mb-auto {
   margin-bottom: auto !important;
 }
@@ -12295,12 +12283,6 @@ fieldset:disabled .btn {
   border-color: #5FA8D3;
 }
 
-.btn-inactive {
-  color: #5FA8D3;
-  background-color: #fff;
-  border: 2px solid #5FA8D3;
-}
-
 .btn-primary:hover {
   color: #01295F;
   background-color: #5FA8D3;
@@ -12315,11 +12297,11 @@ fieldset:disabled .btn {
 }
 
 .footer ul {
-  padding-left: 0
+  padding-left: 0;
 }
 
 .footer ul ol {
-  display: inline
+  display: inline;
 }
 
 #wrapper {
@@ -12342,7 +12324,7 @@ fieldset:disabled .btn {
 }
 
 
-/* Header */
+/* Style Olga + zmiana w .footer w style własne */
 
 .h1-title {
   font-family: 'work_sanssemibold';
@@ -12467,4 +12449,119 @@ input[type='radio']:checked:after {
 
 .panel-marg {
   margin-top: 3rem;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  width: 170px;
+}
+
+.mb-6 {
+  margin-bottom: 7px !important;
+}
+
+.btn-inactive {
+  color: #5FA8D3;
+  background-color: #fff;
+  border: 2px solid #5FA8D3;
+}
+
+/* Panel admin */
+.buttonactivate {
+  background-color: #5fa8d3;
+  border: 1px solid #5fa8d3;
+  width: 173px;
+  height: 44px;
+  border-radius: 30px;
+  color: #ffffff;
+  padding: 13px, 35px, 13px, 35px;
+  text-align: center;
+  position: relative;
+  top: 20px;
+  left: 245px;
+}
+
+.textboxadmin {
+  background-color: #ffffff;
+  border: 1px solid #5fa8d3;
+  width: 141px;
+  height: 40px;
+  position: relative;
+  top: 15px;
+  left: 90px;
+}
+
+.hrefadmin {
+  color: #01295F;
+  text-decoration: none;
+  position: relative;
+  top: 15px;
+  left: 190px;
+}
+
+#zdjecie,
+#zdjecie2 {
+  width: 126px;
+  height: 142px;
+  top: 65px;
+}
+
+#name,
+#name2 {
+  left: 115px;
+}
+
+#surname,
+#surname2 {
+  left: 140px;
+}
+
+#poradnia,
+#poradnia2 {
+  left: 165px;
+}
+
+[sidebarlist] {
+  font-size: 22px;
+}
+
+.sidebarline {
+  width: 38px;
+  height: 0px;
+  border: 1px solid #5FA8D3;
+  opacity: 100%;
+  position: relative;
+  left: 30px;
+}
+
+#logopng {
+  position: relative;
+  left: 25%;
+}
+
+#sidebaradminlist {
+  position: relative;
+  top: 50px;
+}
+
+#sidebargetoutlist {
+  position: absolute;
+  bottom: 2%;
+}
+
+#h1konta {
+  position: relative;
+  top: 50px;
+  left: 115px;
+}
+
+#hrh1konta {
+  position: relative;
+  top: 50px;
+  left: 90px;
+  width: 857px;
+
 }
